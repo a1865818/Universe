@@ -19,19 +19,19 @@ Universe is a social network platform for student clubs and events. It allows us
 
 To run the web app locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/UAdelaide/23S1_WDC_UG063_Red_Devils`
+1. Clone the repository: `git clone https://github.com/a1865818/Universe.git`
 2. Install the required dependencies: `npm install`
 3. Turn on the database: `service mysql start`
 4. Load the database config and data: `mysql < db.sql`
 5. Run the app: `npm start`
 6. Access the app in your web browser at `http://localhost:8080`
 
-<b> Warning: nodemailer might not work because the tokens will be expired for security reason. If you want to try that feature, please contact me via this email `quangnguyentechno@gmail.com` so i can give you new tokens. Cheers! </b>
+<b> Warning: nodemailer might not work because the tokens will be expired for security reason. If you want to try that feature, please contact me via this email `minhnt10122003@gmail.com` so i can give you new tokens. Cheers! </b>
 
 ## Technologies Used
 
-- Frontend: HTML, CSS, JavaScript
-- Backend: Node.js, Express.js, Vue.js, AJAX
+- Frontend: HTML, CSS, JavaScript, Vue.js
+- Backend: Node.js, Express.js, AJAX
 - Database: MySQL
 - Authentication: JSON Web Tokens (JWT), OAuth2, bcrypt
 - Email Notifications: nodemailer
